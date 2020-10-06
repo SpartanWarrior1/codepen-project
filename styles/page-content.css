@@ -1,0 +1,70 @@
+.page-content {
+    background-image: linear-gradient(-90deg, #0C0D10, #40434D);
+    margin-top: 0px;
+    color: #FCFBFA;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-content > .page-half {
+    padding-left: 40px;
+}
+
+.page-content > .page-half > .paragraph-1 {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.page-content > .page-half > .paragraph-2 {
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.page-content > .page-half > .page-link-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.page-content > .page-half > .page-link-wrapper > .sign-up-link {
+    background-color: #4BCD79;
+    border-radius: 2px;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 15px 20px;
+}
+
+.page-content > .page-half > .page-link-wrapper > .sign-up-link a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.page-content > .page-half > .page-link-wrapper > .learn-more-link {
+    background-color: #000000;
+    border-radius: 2px;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 15px 20px;
+    margin-left: 15px;
+}
+
+.page-content > .page-half > .page-link-wrapper > .learn-more-link a {
+    color: #FCFBFA;
+    text-decoration: none;
+}
+
+.page-content > .page-half > .paragraph-3 {
+    padding-left: 10px;
+}
+
+.page-content > .page-half > .paragraph-3 span{
+    color: #6ED4F5;
+}
+
+.page-content > .page-half > .page-image-wrapper img{
+    width: 700px;
+    height: 100%;
+    box-shadow: -21px -16px 28px -20px rgba(0,0,0,0.75);
+}
